@@ -1,3 +1,6 @@
+<img width="893" height="597" alt="Screenshot 2026-05-14 151310" src="https://github.com/user-attachments/assets/5e37a881-fa25-44a2-91f4-aad714db1976" />
+<img width="1120" height="1201" alt="Screenshot 2026-05-14 151144" src="https://github.com/user-attachments/assets/2df2813c-a134-4280-8636-e55cd673380a" />
+
 # 📊 Exploratory Data Analysis of Metal Price Trends (1992–2021)
 
 ---
