@@ -1,6 +1,7 @@
 # 📊 Global Metal Price Forecasting & Predictive Analytics (1992–2021)
 
 ---
+<img width="2409" height="1463" alt="Screenshot 2026-05-23 230221" src="https://github.com/user-attachments/assets/4b5c9c19-242c-4d45-98a0-f78c2a8308f5" />
 
 # 🧾 Project Overview
 
@@ -120,6 +121,7 @@ to capture seasonal and cyclical patterns.
 #### 📌 Volatility Indicators
 
 Calculated percentage returns to measure market volatility and pricing behavior.
+<img width="1120" height="1201" alt="Screenshot 2026-05-14 151144" src="https://github.com/user-attachments/assets/5f3af397-b960-4b6d-a7d4-cc6411b8bc27" />
 
 ---
 
