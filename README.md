@@ -2,6 +2,7 @@
 
 ---
 <img width="2409" height="1463" alt="Screenshot 2026-05-23 230221" src="https://github.com/user-attachments/assets/4b5c9c19-242c-4d45-98a0-f78c2a8308f5" />
+<img width="893" height="597" alt="Screenshot 2026-05-14 151310" src="https://github.com/user-attachments/assets/24c120dc-2cf3-4d45-a429-6629ece9b245" />
 
 # 🧾 Project Overview
 
