@@ -160,6 +160,53 @@ Implemented to capture nonlinear relationships and volatility-driven market move
 Random Forest performed significantly better on nonlinear and industrial-demand-driven commodities while struggling with extreme volatility spikes in Uranium prices.
 
 ---
+## 🚀 XGBoost Regressor
+
+To further improve forecasting performance and capture complex market behavior, XGBoost Regressor was implemented as an advanced gradient boosting ensemble model.
+
+### Why XGBoost?
+
+Commodity prices are influenced by multiple nonlinear factors such as inflation, industrial demand, market sentiment, and economic cycles. Traditional regression models often struggle to capture these interactions effectively.
+
+XGBoost was selected because it:
+
+* Handles nonlinear relationships efficiently
+* Reduces overfitting through regularization
+* Learns complex feature interactions
+* Delivers strong performance on structured/tabular datasets
+* Is widely adopted in financial and business analytics applications
+
+### Features Used
+
+The model was trained using engineered time-series features including:
+
+* Year
+* Month
+* Quarter
+* 1-Month Lag
+* 2-Month Lag
+* 3-Month Lag
+* 3-Month Rolling Average
+
+### Key Observations
+
+* Successfully captured nonlinear price movement patterns across multiple commodities.
+* Demonstrated strong predictive performance on trend-driven metals such as Gold, Silver, Aluminium, and Nickel.
+* Feature importance analysis revealed that lag variables and rolling averages contributed significantly to prediction accuracy.
+* Performed better at modeling market complexity than traditional Linear Regression while providing greater interpretability than deep learning approaches.
+
+### Business Relevance
+
+XGBoost can support:
+
+* Commodity demand forecasting
+* Procurement cost optimization
+* Investment trend analysis
+* Market risk assessment
+* Financial planning and budgeting
+
+This addition extended the project from traditional regression analysis toward advanced predictive analytics and ensemble learning.
+---
 
 # 📊 Exploratory Data Analysis (EDA)
 
