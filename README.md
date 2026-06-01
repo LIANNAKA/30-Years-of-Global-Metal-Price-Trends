@@ -206,6 +206,8 @@ XGBoost can support:
 * Financial planning and budgeting
 
 This addition extended the project from traditional regression analysis toward advanced predictive analytics and ensemble learning.
+<img width="2431" height="1424" alt="image" src="https://github.com/user-attachments/assets/494ada6b-b625-46ae-bc29-f3fb45822392" />
+
 ---
 
 # 📊 Exploratory Data Analysis (EDA)
