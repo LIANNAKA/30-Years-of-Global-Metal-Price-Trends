@@ -209,6 +209,92 @@ This addition extended the project from traditional regression analysis toward a
 <img width="2431" height="1424" alt="image" src="https://github.com/user-attachments/assets/494ada6b-b625-46ae-bc29-f3fb45822392" />
 
 ---
+---
+
+# ⏳ ARIMA Time-Series Forecasting
+
+To complement machine learning-based forecasting approaches, **ARIMA (AutoRegressive Integrated Moving Average)** was implemented as a dedicated time-series forecasting model.
+
+Unlike regression and ensemble learning models that rely on engineered features, ARIMA leverages historical sequential patterns directly from the time series to forecast future commodity prices.
+
+## 🎯 Why ARIMA?
+
+Commodity prices exhibit temporal dependencies where historical values influence future market behavior. ARIMA was introduced to:
+
+- Capture trend-based price movements
+- Forecast future commodity prices using historical patterns
+- Compare traditional time-series forecasting against machine learning approaches
+- Evaluate forecasting performance across different metal categories
+
+---
+
+## ⚙️ Forecasting Process
+
+### 📊 Data Preparation
+
+- Converted commodity prices into time-series format
+- Maintained chronological order of observations
+- Performed train-test split without shuffling to preserve temporal integrity
+
+### 🤖 Model Development
+
+- Trained ARIMA models on historical commodity price data
+- Generated future monthly price forecasts
+- Evaluated forecasting performance using error metrics
+
+---
+
+## 🏭 Metals Forecasted
+
+- Gold
+- Silver
+- Aluminium
+- Nickel
+- Uranium
+
+---
+
+## 🔍 Key Observations
+
+- ARIMA successfully captured long-term price trends for relatively stable commodities.
+- Gold and Silver exhibited more predictable forecasting behavior.
+- Uranium remained challenging due to sudden market shocks and extreme volatility.
+- Forecast accuracy varied based on market stability and commodity-specific characteristics.
+
+---
+
+## 📈 Business Applications
+
+### 📦 Procurement Planning
+- Forecast raw material costs and purchasing requirements.
+
+### 💰 Commodity Budgeting
+- Support budgeting and financial planning based on projected commodity prices.
+
+### 🌍 Market Intelligence
+- Identify long-term trends and anticipate market movements.
+
+### 📊 Financial Forecasting
+- Assist investors and analysts in evaluating future commodity price scenarios.
+
+### ⚠️ Risk Management
+- Monitor commodity volatility and support risk mitigation strategies.
+
+---
+
+## 🚀 Business Value
+
+The addition of ARIMA expanded the project beyond machine learning-based prediction into dedicated time-series forecasting, enabling future price projections based on historical market behavior.
+
+This provides a more comprehensive forecasting framework by combining:
+
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Regression Modeling
+- Ensemble Learning (Random Forest & XGBoost)
+- Time-Series Forecasting (ARIMA)
+
+---
 
 # 📊 Exploratory Data Analysis (EDA)
 
