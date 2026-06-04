@@ -365,6 +365,79 @@ These metrics helped compare:
 * volatility handling capability
 
 ---
+# 🚀 Model Serialization & Deployment Readiness
+
+To make the forecasting system production-ready, the project was enhanced with **model serialization**, enabling trained machine learning models to be saved and reused without retraining.
+
+This enhancement bridges the gap between model development and real-world deployment by converting forecasting models into reusable assets that can be integrated into applications, dashboards, and automated prediction systems.
+
+---
+
+## 📌 Why Model Serialization?
+
+Machine learning models trained in notebooks are not directly suitable for deployment. By serializing models using **Pickle (.pkl)**, trained models can be stored and loaded whenever predictions are required.
+
+### Benefits
+- ⚡ Faster inference and prediction generation
+- 💾 Reduced computational overhead
+- 🔄 Consistent and reproducible predictions
+- 🚀 Easy integration into web applications and dashboards
+- 📈 Deployment-ready forecasting pipeline
+
+---
+
+## 🤖 Serialized Forecasting Models
+
+### Linear Regression Models
+- Gold Price Forecasting
+- Silver Price Forecasting
+- Aluminium Price Forecasting
+- Nickel Price Forecasting
+- Uranium Price Forecasting
+
+### Random Forest Regressor Models
+- Gold Price Forecasting
+- Silver Price Forecasting
+- Aluminium Price Forecasting
+- Nickel Price Forecasting
+- Uranium Price Forecasting
+
+### XGBoost Regressor Models
+- Gold Price Forecasting
+- Silver Price Forecasting
+- Aluminium Price Forecasting
+- Nickel Price Forecasting
+- Uranium Price Forecasting
+
+### ARIMA Forecasting Models
+- Gold Price Forecasting
+- Silver Price Forecasting
+- Aluminium Price Forecasting
+- Nickel Price Forecasting
+- Uranium Price Forecasting
+
+---
+
+## 🏗️ Project Architecture
+
+```text
+Historical Commodity Data
+            ↓
+     Data Preprocessing
+            ↓
+    Feature Engineering
+            ↓
+      Model Training
+            ↓
+      Model Evaluation
+            ↓
+ Model Serialization (.pkl)
+            ↓
+     Deployment Ready
+            ↓
+    Streamlit Application
+```
+---
 
 # ⚠️ Challenges Faced
 
