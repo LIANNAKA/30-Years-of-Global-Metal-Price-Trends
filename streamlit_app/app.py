@@ -102,12 +102,21 @@ model_map = {
 # LOAD DATA
 # =====================================================
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 @st.cache_data
 def load_data():
 
-    return pd.read_csv(
-        "../data/processed/cleaned_metal_prices.csv"
+    file_path = (
+        BASE_DIR /
+        "data" /
+        "processed" /
+        "cleaned_metal_prices.csv"
     )
+
+    return pd.read_csv(file_path)
 
 df = load_data()
 # =====================================================
@@ -168,14 +177,13 @@ kpi4.metric(
 # =====================================================
 
 model_path = (
-    f"../models/"
-    f"{model_map[model_type]['folder']}/"
-    f"{selected_metal}_"
-    f"{model_map[model_type]['suffix']}.pkl"
+    BASE_DIR /
+    "models" /
+    model_map[model_type]["folder"] /
+    f"{selected_metal}_{model_map[model_type]['suffix']}.pkl"
 )
 
 with open(model_path, "rb") as f:
-
     model = pickle.load(f)
 
 # =====================================================
@@ -337,11 +345,11 @@ with tab2:
     )
 
     prediction_path = (
-        f"../predictions/"
-        f"{model_map[model_type]['folder']}/"
-        f"Price_{selected_metal}_"
-        f"{model_map[model_type]['suffix']}_predictions.csv"
-    )
+    BASE_DIR /
+    "predictions" /
+    model_map[model_type]["folder"] /
+    f"Price_{selected_metal}_{model_map[model_type]['suffix']}_predictions.csv"
+)
 
     try:
 
@@ -445,7 +453,9 @@ with tab3:
     try:
 
         arima_path = (
-            f"../models/arima/"
+            BASE_DIR /
+            "models" /
+            "arima" /
             f"{selected_metal}_arima.pkl"
         )
 
