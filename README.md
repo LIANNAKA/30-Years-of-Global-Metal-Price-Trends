@@ -295,6 +295,126 @@ This provides a more comprehensive forecasting framework by combining:
 - Time-Series Forecasting (ARIMA)
 
 ---
+# 🌐 Streamlit Deployment
+
+To make the forecasting pipeline interactive and accessible, the project was deployed using **Streamlit**. The application enables users to analyze historical commodity price trends, generate machine learning forecasts, and perform ARIMA-based time-series forecasting through a user-friendly web interface.
+
+---
+
+## 🚀 Features
+
+### 📊 Historical Analysis Dashboard
+
+Users can:
+
+- Visualize **30 years of historical metal price trends**
+- Explore long-term market cycles
+- Analyze commodity-specific volatility
+
+#### Supported Metals
+
+- Gold
+- Silver
+- Aluminium
+- Nickel
+- Uranium
+
+---
+
+### 🤖 Machine Learning Forecasting
+
+The dashboard integrates multiple trained machine learning models:
+
+- Linear Regression
+- Random Forest Regressor
+- XGBoost Regressor
+
+#### User Inputs
+
+Users can provide:
+
+- Year
+- Month
+- Quarter
+- Lag Features
+- Rolling Mean Features
+
+The application generates **real-time commodity price predictions** using pre-trained serialized models.
+
+---
+
+### ⏳ ARIMA Forecasting
+
+Traditional time-series forecasting is implemented using ARIMA.
+
+#### Capabilities
+
+- Future price forecasting
+- Adjustable forecast horizon
+- Interactive forecast visualization
+- Forecast export functionality
+
+---
+
+### 📈 Interactive Visualizations
+
+The dashboard leverages **Plotly** for interactive data exploration.
+
+#### Visualizations Included
+
+- Historical Trend Analysis
+- Actual vs Predicted Comparisons
+- ARIMA Forecast Visualization
+- Model Performance Comparison
+
+#### Benefits
+
+- Interactive Zooming
+- Hover Tooltips
+- Dynamic Exploration
+- Responsive Design
+
+---
+
+### 📦 Model Serialization
+
+All trained forecasting models are serialized using **Pickle**, enabling fast deployment without retraining.
+
+#### Serialized Models
+
+- Linear Regression Models
+- Random Forest Models
+- XGBoost Models
+- ARIMA Models
+
+---
+
+## ⚡ Dashboard Highlights
+
+- ✅ Interactive Forecasting
+- ✅ Real-Time Predictions
+- ✅ Multiple Forecasting Approaches
+- ✅ Model Comparison
+- ✅ Downloadable Forecasts
+- ✅ Business-Friendly Visualizations
+
+---
+
+## 💼 Business Applications
+
+- 📦 Procurement Planning
+- 💹 Investment Analysis
+- ⚙️ Supply Chain Forecasting
+- 📈 Commodity Market Intelligence
+- 🌍 Economic Research
+- 📊 Financial Risk Assessment
+
+---
+
+## 🎯 Deployment Outcome
+
+The Streamlit application transforms complex forecasting workflows into an intuitive analytical platform, enabling users to explore historical trends, compare forecasting models, and generate future commodity price predictions without requiring technical expertise.
+---
 
 # 📊 Exploratory Data Analysis (EDA)
 
