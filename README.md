@@ -73,6 +73,82 @@ Kaggle – Metal Price Changes (Last 30 Years)
 
 ---
 
+## 📂 Project Structure
+
+```text
+30_Years_of_Global_Metal_Price_Trends/
+│
+├── data/
+│   ├── raw/
+│   │   └── MetalPriceChange.csv
+│   │
+│   └── processed/
+│       ├── ARIMA_Forecasts.csv
+│       ├── cleaned_metal_prices.csv
+│       └── feature_engineering_data.csv
+│
+├── notebooks/
+│   │
+│   ├── MetakPriceChangeTrend.ipynb
+│   ├── FeatureEngineering.ipynb
+│   ├── RegressionModel.ipynb
+│   ├── XGBoost.ipynb
+│   ├── Arima_forecasting.ipynb
+│   └── Model_Serialization.ipynb
+│
+├── models/
+│   │
+│   ├── linear_regression/
+│   │   ├── gold_lr.pkl
+│   │   ├── silver_lr.pkl
+│   │   ├── alum_lr.pkl
+│   │   ├── nickel_lr.pkl
+│   │   └── uran_lr.pkl
+│   │
+│   ├── random_forest/
+│   │   ├── gold_rf.pkl
+│   │   ├── silver_rf.pkl
+│   │   ├── alum_rf.pkl
+│   │   ├── nickel_rf.pkl
+│   │   └── uran_rf.pkl
+│   │
+│   ├── xgboost/
+│   │   ├── gold_xgb.pkl
+│   │   ├── silver_xgb.pkl
+│   │   ├── alum_xgb.pkl
+│   │   ├── nickel_xgb.pkl
+│   │   └── uran_xgb.pkl
+│   │
+│   └── arima/
+│       ├── gold_arima.pkl
+│       ├── silver_arima.pkl
+│       ├── alum_arima.pkl
+│       ├── nickel_arima.pkl
+│       └── uran_arima.pkl
+│
+├── predictions/
+│   │
+│   ├── linear_regression/
+│   ├── random_forest/
+│   ├── xgboost/
+│   └── arima/
+│
+├── outputs/
+│   │
+│   ├── commodity_correlation_heatmap.png
+│   ├── pca_analysis.png
+│   ├── kmeans_clustering.png
+│   ├── anomaly_detection.png
+│   └── model_comparison.png
+│
+├── streamlit_app/
+│   ├──  app.py
+│   └── requirements.txt
+└── README.md
+
+```
+---
+
 # 🛠️ Technologies Used
 
 * Python
