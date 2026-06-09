@@ -14,21 +14,15 @@ https://github.com/user-attachments/assets/c8743478-a17d-4d75-ab75-849d3ec2d04a
 
 ---
 
-# 🧾 Project Overview
+## 🧾 Project Overview
 
-This project analyzes and forecasts 30 years of historical global metal price data using Exploratory Data Analysis (EDA), Feature Engineering, and Machine Learning techniques.
+This project is an end-to-end commodity price analytics and forecasting platform built using 30 years of historical metal price data (1992–2021). It combines Exploratory Data Analysis (EDA), Feature Engineering, Machine Learning, Time-Series Forecasting, and Interactive Visualization to analyze and predict commodity market behavior.
 
-The project initially focused on identifying long-term market trends, inflation impact, and commodity volatility through EDA and was later extended into predictive analytics using regression models and time-series feature engineering.
+The analysis focuses on Gold, Silver, Aluminium, Nickel, and Uranium, utilizing models such as Linear Regression, Random Forest, XGBoost, and ARIMA for forecasting.
 
-The analysis covers five major metals:
+The project is deployed as an interactive Streamlit dashboard, enabling users to explore historical trends, compare model performance, and generate commodity price forecasts through a user-friendly interface.
 
-* Aluminium
-* Gold
-* Nickel
-* Silver
-* Uranium
-
-The primary goal is to transform raw financial and commodity market data into actionable business insights and predictive forecasting intelligence that can support industrial planning, investment analysis, and risk management.
+**Tech Stack:** Python, Pandas, NumPy, Scikit-Learn, XGBoost, Statsmodels, Plotly, Streamlit, Matplotlib, Seaborn
 
 ---
 
